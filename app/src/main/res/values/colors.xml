@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <color name="buttondark1">#221344</color>
+    <color name="buttondark2">#8720BE</color>
+    <color name="btn_out1">#ad2dc8</color>
+    <color name="btn_out2">#441f81</color>
+
+    <color name="buttonlight1">#755478</color>
+    <color name="buttonlight2">#5624bb</color>
+    <color name="btn2_out1">#a070aa</color>
+    <color name="btn2_out2">#712fb8</color>
+
+    <color name="background">#271739</color>
+    <color name="dialogboxbg">#422A55</color>
+    <color name="dark_dialogbox">#1F122E</color>
+    <color name="light_dialogbox">#524561</color>
+
+    <color name="dark_imagebutton">#332042</color>
+    <color name="light_imagebutton">#8E7F9A</color>
+
+    <color name="icon_color_light">#FAB6FF</color>
+    <color name="icon_color_dark">#100B15</color>
+    <color name="icon_shadow_light">#b8aeb7</color>
+    <color name="icon_shadow_dark">#5c3b78</color>
+
+    <color name="navbar_bg">#4b4763</color>
+    <color name="navbar_bg2">#474264</color>
+    <color name="navbar_bg_selected">#77748d</color>
+    <color name="light_bg">#524561</color>
+
+    <color name="circle_bg1_in">#713785</color>
+    <color name="circle_bg1_out">#16122A</color>
+
+    <color name="circle_bg2_in">#393067</color>
+    <color name="circle_bg2_out">#16122A</color>
+
+    <color name="home1_bg1">#592FAD</color>
+    <color name="home1_bg2">#732985</color>
+    <color name="header_bg">#764BCC</color>
+
+    <color name="cardlight_bg">#968DA3</color>
+    <color name="carddark_bg">#41374D</color>
+    <color name="card_shadow_light">#80000000</color>
+
+    <color name="text_dark">#000000</color>
+    <color name="text_purple">#2e2043</color>
+
+    <color name="light_edittext">#7E748B</color>
+    <color name="dark_edittext">#251637</color>
+    <color name="light_edittext_shadow">#FFFFFF</color>
+    <color name="dark_edittext_shadow">#8720BE</color>
+    <color name="edittext_colorlight">#FAB6FF</color>
+    <color name="edittext_colordark">#251637</color>
+
+    <color name="transparent50">#80FFFFFF</color>
+    <color name="transparent25">#40FFFFFF</color>
+    <color name="transparent80">#CCFFFFFF</color>
+    <color name="transparent10">#19FFFFFF</color>
+    <color name="transparent15">#26FFFFFF</color>
+    <color name="transparent20">#33FFFFFF</color>
+
+    <color name="et_bg">#271b57</color>
+    <color name="et_bgs">#442e96</color>
+    <color name="search_bg">#503d6a</color>
+    <color name="search_border">#8e819f</color>
+    <color name="ic_bgs">#503597</color>
+    <color name="ic_bg">#1e1443</color>
+
+    <color name="color1">#6586FF</color>
+    <color name="color2">#FF4050</color>
+    <color name="color3">#6DFFB9</color>
+    <color name="color4">#27E8FF</color>
+
+    <color name="transparent2">#00FFFFFF</color>
+</resources>

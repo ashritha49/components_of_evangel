@@ -1,0 +1,57 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Pressed State -->
+    <item android:state_pressed="true">
+        <layer-list>
+            <!-- Background color when pressed -->
+            <item>
+                <shape android:shape="rectangle">
+                    <gradient
+                        android:startColor="@color/buttonlight1"
+                        android:endColor="@color/buttonlight2"
+                        android:angle="0" /> <!-- Background color when pressed -->
+                    <corners android:radius="30dp" /> <!-- Corner radius -->
+                </shape>
+            </item>
+            <!-- Gradient outline when pressed -->
+            <item android:left="1dp" android:top="2dp" android:right="1dp" android:bottom="2dp">
+                <shape android:shape="rectangle">
+                    <gradient
+                        android:startColor="@color/btn2_out1"
+                        android:endColor="@color/btn2_out2"
+                        android:angle="180" /> <!-- Gradient outline -->
+                    <corners android:radius="30dp" /> <!-- Corner radius -->
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <!-- Normal State -->
+    <item>
+        <layer-list>
+            <!-- Background gradient color -->
+            <item>
+                <shape android:shape="rectangle">
+                    <gradient
+                        android:startColor="#9068a6"
+                        android:endColor="#e38ee1"
+                        android:angle="0" /> <!-- Background gradient color -->
+                    <corners android:radius="30dp" /> <!-- Corner radius -->
+                </shape>
+            </item>
+            <!-- Gradient outline -->
+            <item android:left="1dp" android:top="2dp" android:right="1dp" android:bottom="2dp">
+                <shape android:shape="rectangle">
+                    <gradient
+                        android:startColor="#6a3a83"
+                        android:endColor="#972e90"
+                        android:angle="0" /> <!-- Gradient outline -->
+                    <corners android:radius="30dp" /> <!-- Corner radius -->
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>
+
+
+
+
+

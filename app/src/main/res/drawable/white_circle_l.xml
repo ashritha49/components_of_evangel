@@ -1,0 +1,43 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Rectangle background -->
+    <item>
+        <shape
+            android:shape="rectangle">
+            <size android:width="100dp" android:height="65dp"/>
+            <gradient android:type="linear"
+                android:centerX="0.55"
+                android:centerY="0"
+                android:startColor="@color/transparent2"
+                android:centerColor="@color/transparent20"
+                android:endColor="@color/transparent2"/>
+            <corners android:topLeftRadius="40dp"
+                android:bottomLeftRadius="40dp"/>
+        </shape>
+    </item>
+    <item>
+        <shape
+            android:shape="rectangle">
+            <size android:width="100dp" android:height="65dp"/>
+            <gradient
+                android:centerX="0.55"
+                android:centerY="0.25"
+                android:type="radial"
+                android:startColor="@color/transparent20"
+                android:endColor="@color/transparent2"
+                android:gradientRadius="55%"/>
+            <corners android:topLeftRadius="40dp"
+                android:bottomLeftRadius="40dp"/>
+        </shape>
+    </item>
+    <!-- Dash line at the top center -->
+    <item android:top="0dp" android:bottom="60dp" android:left="45dp" android:right="35dp">
+        <shape android:shape="rectangle">
+            <solid
+                android:color="@color/white"
+                android:width="2dp" />
+            <size android:height="5dp" />
+            <corners android:radius="4dp"/>
+        </shape>
+    </item>
+
+</layer-list>

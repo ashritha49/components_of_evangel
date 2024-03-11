@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:title="Learn Now"
+        android:icon="@drawable/ic_home" />
+    <item
+        android:id="@+id/nav_explore"
+        android:title="Explore"
+        android:icon="@drawable/ic_search" />
+    <item
+        android:id="@+id/nav_notifications"
+        android:title="Notifications"
+        android:icon="@drawable/notification"/>
+
+    <item
+        android:id="@+id/nav_libraries"
+        android:title="Libraries"
+        android:icon="@drawable/lib"/>
+</menu>

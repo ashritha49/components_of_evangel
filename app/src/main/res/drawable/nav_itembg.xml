@@ -1,0 +1,10 @@
+<!-- light_from_top_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:type="linear"
+        android:gradientRadius="40dp"
+        android:startColor="@color/transparent2"
+        android:centerColor="@color/transparent80"
+        android:endColor="#00FFFFFF"
+        android:shape="rectangle" />
+</shape>

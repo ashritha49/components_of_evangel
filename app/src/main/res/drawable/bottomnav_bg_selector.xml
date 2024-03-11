@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="false" >
+        <shape
+            android:shape="rectangle">
+            <!-- Define the gradient -->
+            <gradient
+                android:type="linear"
+                android:centerX="50%"
+                android:centerY="50%"
+                android:angle="-90"
+                android:startColor="@color/navbar_bg_selected"
+                android:endColor="@color/navbar_bg"
+                android:gradientRadius="40dp"
+                />
+            <!-- Define the oval shape -->
+            <corners
+                android:topLeftRadius="0dp"
+            android:topRightRadius="0dp"
+            android:bottomLeftRadius="0dp"
+            android:bottomRightRadius="0dp" />
+        </shape>
+    </item>
+    <item android:color="@color/icon_color_dark" >
+            <shape
+                android:shape="rectangle">
+                <solid android:color="@color/navbar_bg"/>
+            </shape>
+    </item>
+</selector>
